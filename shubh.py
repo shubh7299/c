@@ -20,7 +20,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 # Telegram bot token and channel IDs
 TOKEN = '7516039524:AAHBjHmP8B1tFxjlnqr16Qdj02_wzBBNXGc'  # Replace with your actual bot token
-CHANNEL_ID = '-1002236058551'  # Replace with your specific channel or group ID for attacks
+CHANNEL_ID = '-1002409207470'  # Replace with your specific channel or group ID for attacks
 FEEDBACK_CHANNEL_ID = '-1002519757643'  # Replace with your specific channel ID for feedback
 message_queue = []
 
@@ -54,7 +54,7 @@ BAN_DURATION = timedelta(hours=0)  # 0 hour ban for invalid feedback
 DAILY_ATTACK_LIMIT = 5000
 EXEMPTED_USERS = [1817896911]
 # Configuration
-MAX_ATTACK_DURATION = 150  # Maximum attack duration in seconds (e.g., 200 seconds = 3.20 minutes)
+MAX_ATTACK_DURATION = 200  # Maximum attack duration in seconds (e.g., 200 seconds = 3.20 minutes)
 
 def is_member(user_id):
     """Check if the user is a member of the official channel."""
